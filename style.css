@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Noto+Serif:wght@700&family=Source+Code+Pro:wght@200&display=swap');
+
+
+
+
+*{
+    margin: 12;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(189, 185, 185);
+    width: 20vw;
+    font-family: 'Noto Serif', serif;
+    height: 100vh;
+
+}
+.sidebar nav{
+    padding: 45px; 
+   
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    
+    width: 80vw;
+    background-color: #626262
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    
+    height: 32vw;
+    width: 60vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devPic img{
+    height: 345px;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 40px;
+    color: white;
+ 
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+    color: white;
+}
+.moreAbout{
+    font-family: 'Noto Serif', serif;
+    margin-top: 20px;
+    color: white;
+}
+.about{
+    font-size: 20px;
+    color: white;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 18px;
+    border-radius: 72px;
+    color: white;
+    background-color:black;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    color:black;
+    background-color:white;
+}
+.contactform{
+    font-family: 'Noto Serif', serif;
+    padding: 40px;
+    margin: 40px;
+    background-color: #b4b4b4;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.mb-2{
+    padding: 0px;
+    margin: 23px;
+    
+    display: flex;
+flex-direction: column;
+
+}
+.mb-2 input{
+    width: 400px;
+    margin-top: 6px;
+    border-radius: 5px;
+    color: black;
+    background-color: #d9d9d9;
+}
+
+.mb-3{
+    margin: 23px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.mb-3 input{
+    width: 400px;
+    margin-top: 6px;
+    border-radius: 5px;
+    color: black;
+    background-color: #d9d9d9;
+}
+.mb-4{
+    margin: 23px;
+    display: flex;
+flex-direction: column;
+}
+.mb-4 input{
+    width: 400px;
+    margin-top: 6px;
+    border-radius: 5px;
+    color: black;
+    background-color: #d9d9d9;
+}
+.mb-5{
+    margin: 18px;
+    display: flex;
+
+}
+.butto{
+    margin: 21px;
+    background-color: #b4b4b4;
+    color: white;
+    border-radius: 29px;
+    font size : 25px;
+}
+.butto button{
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+}
+.me{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    padding: 40px;
+    margin: 40px;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+.infoa{
+    color:white;
+    height: 500px;
+    width: 560px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 44px;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.inta{
+    margin-top: 143px;
+}
+.dev img{
+    height: 500px;
+    margin-left: 654px;
+    margin-top: -602px;
+}
+.maina{
+    width: 80vw;
+    background-color: #626262;
+    
+}
+.mainas{
+    width: 80vw;
+    background-color: #626262;
+}
+.infoas{
+    color:white;
+    height: 500px;
+    width: 560px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 44px;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.intas{
+    margin-top: 118px;
+}
+.deva img{
+    height: 390px;
+    margin-left: 597px;
+    margin-top: -409px;
+    animation-name: move;
+  animation-duration: 0.5s; 
+  animation-timing-function: linear; 
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: paused
+    
+}
+.mainc{
+    width: 80vw;
+    background-color: #626262;
+}
+.pro{
+    margin-left: 50px;
+    color: white;
+    
+}
+.lpro{
+    width:40vw;
+    height: 300px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.lpro h1{
+    font-family: 'Source Code Pro', monospace;
+    color: black
+    ;
+}
+
+  .lpro ul{
+    list-style: none;
+    font-size: 23px;
+    color: white;  
+}
+.lpic img{
+    width: 25vw;
+    margin-left: 43pc;
+    margin-top: -314px;
+}
+
+.rpro{
+    width: 40vw;
+    margin: 40px;
+    margin-left: 576px;
+    height: 300px;
+    
+}
+.rpro h1{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+
+    
+}
+.rpro ul{
+    list-style: none;
+    font-size: 23px;
+    color:black;  
+}
+.rpc img{
+    margin-bottom: 118px;
+    margin-left: 27px;
+    width: 525px;
+    margin-top: -353px;
+}
